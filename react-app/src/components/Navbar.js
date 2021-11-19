@@ -1,25 +1,19 @@
 import React from 'react';
 
-function Navbar({ currentPage, handlePageChange}) {
+function Navbar({ handlePageChange }) {
     return (
-        <div className="nav">
-            <ul className="nav-bar">
-                <li className="nav-item">
-                    <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === "About" ? 'nav-link active' : 'nav-link'}>About Me</a>
-                </li>
-                <li className="nav-item">
-                    <a href="#projects" onClick={() => handlePageChange('Projects')} className={currentPage === "Projects" ? 'nav-link active' : 'nav-link'}>Projects</a>
-                </li>
-                <li className="nav-item">
-                    <a href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === "Contact" ? 'nav-link active' : 'nav-link'}>Contact Me</a>
-                </li>
-                <li className="nav-item">
-                    <a href="#" target="_blank" rel="noreferrer">Resume</a>
-                </li>
-            </ul>
+    <nav className="navbar is-dark" role="navigation" aria-label="main navigation">
+        <div className="navbar-menu">
+            <div className="navbar-end">
+            <a className="navbar-item" href="#about" onClick={() => handlePageChange('About')}>About Me</a>
+            <a className="navbar-item" href="#projects" onClick={() => handlePageChange('Projects')}>Projects</a>
+            <a className="navbar-item" href="#contact" onClick={() => handlePageChange('Contact')}>Contact Me</a>
+            <a className="navbar-item" href="#" target="_blank" rel="noreferrer">Resume</a>            
+            </div>
         </div>
-
+    </nav>
     )
 }
 
 export default Navbar;
+
