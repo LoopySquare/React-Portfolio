@@ -1,7 +1,27 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: darkslategrey; 
+}
 
 * {
   overflow-y: auto !important;
+  background-color: black;
 }
 
 body {
@@ -18,14 +38,46 @@ code {
     monospace;
 }
 
+.header {
+  background: url("./img/portfolio-bg.png") no-repeat center center fixed !important; 
+}
+
 .header-title {
   font-size: 10rem;
   text-align: center !important;
   line-height: 1.5 !important;
+  background: url("./img/portfolio-bg.png") no-repeat center !important; 
+  background-size: contain !important;
 }
 
 .header-description {
   font-size: 4rem;
   text-align: center !important;
   line-height: 1.5 !important;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 7rem;
+  margin-top: 100px;
+}
+
+.about-text-box{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.about-text{
+  flex: 1;
+  max-width: 45%;
+  font-size: 2rem;
+  margin-right: 20px;
+}
+
+.about-pic{
+  flex: 2;
+  max-width: 45%;
+  margin-left: 20px;
 }

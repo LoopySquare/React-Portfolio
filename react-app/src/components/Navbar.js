@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar({ handlePageChange }) {
     return (
-    <nav className="navbar is-dark" role="navigation" aria-label="main navigation">
+    <nav className="navbar is-black" role="navigation" aria-label="main navigation">
         <div className="navbar-menu">
             <div className="navbar-end">
             <a className="navbar-item" href="#about" onClick={() => handlePageChange('About')}>About Me</a>
