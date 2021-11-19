@@ -81,3 +81,19 @@ code {
   max-width: 45%;
   margin-left: 20px;
 }
+
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.git-btn {
+  margin-right: 40px;
+  flex: 1;
+}
+
+.link-btn {
+  margin-left: 40px;
+  flex: 2;
+}
