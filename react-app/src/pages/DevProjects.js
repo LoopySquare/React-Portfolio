@@ -8,7 +8,7 @@ import teamGen from '../img/projects/team-gen.png';
 import weather from '../img/projects/weather-new.PNG'
 import remindr from '../img/projects/remindr logo.png';
 
-export default function Projects() {
+export default function DevProjects() {
   
   return (
     <div>

@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import About from '../pages/About';
 import Contact from '../pages/Contact';
-import Projects from '../pages/Projects';
+import DevProjects from '../pages/DevProjects';
 import Header from './Header';
-import Footer from './Footer'
+import Footer from './Footer';
+import CreativeProjects from '../pages/CreativeProjects';
 
 function Main() {
     const [currentPage, setCurrentPage] = useState('About');
@@ -14,8 +15,11 @@ function Main() {
         };
         if (currentPage === 'Contact') {
             return <Contact />
+        };
+        if (currentPage === 'Creative') {
+            return <CreativeProjects />
         }
-        return <Projects />
+        return <DevProjects />
     };
 
     const handlePageChange = (page) => setCurrentPage(page)
