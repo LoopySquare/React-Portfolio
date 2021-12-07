@@ -27,7 +27,7 @@ export default function DevProjects() {
         <div className='remindr project'>
           <img src={remindr} alt="Remindr" className="remindr-pic"/>
           <p className='project-text'>A reminder application that allows you to create an account to make and save alert notifications to be sent out to your email. The app is easy to use and features customizable options for your account page.</p>
-          <div className="project-footer">
+          <div className="project-footer remindr-footer">
             <a href="https://remindr-notification.herokuapp.com/" className="project-footer-item button">Live Site</a>
             <a href="https://github.com/LoopySquare/Remindr" className="project-footer-item git-btn"><i className="fab fa-github-square fa-4x" aria-hidden="true"></i></a>
           </div>
