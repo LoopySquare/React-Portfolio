@@ -76,7 +76,6 @@ code {
 }
 
 .about-text{
-  flex: 1;
   max-width: 45%;
   font-size: 2rem;
   color: #ffffff;
@@ -87,7 +86,6 @@ code {
 }
 
 .about-pic{
-  flex: 2;
   max-width: 45%;
 }
 
