@@ -46,7 +46,6 @@ code {
   background: url("") no-repeat center !important; 
   background-size: contain !important;
   color: #ffffff;
-  opacity: 87%;
 }
 
 .hello {
@@ -79,7 +78,6 @@ code {
   max-width: 45%;
   font-size: 2rem;
   color: #ffffff;
-  opacity: 87%;
   background-color: rgb(130, 130, 243, .2);
   padding: 30px;
   padding-top: 75px;
@@ -282,7 +280,6 @@ code {
 .project-text {
   color: #ffffff;
   font-size: 1.5rem;
-  opacity: 87%;
   padding: 15px;
 }
 
