@@ -46,6 +46,7 @@ code {
   background: url("") no-repeat center !important; 
   background-size: contain !important;
   color: #ffffff;
+  opacity: 100% !important;
 }
 
 .hello {
@@ -81,6 +82,7 @@ code {
   background-color: #28283f;
   padding: 30px;
   padding-top: 75px;
+  opacity: 100% !important;
 }
 
 .about-pic{
@@ -281,6 +283,7 @@ code {
   color: #ffffff;
   font-size: 1.5rem;
   padding: 15px;
+  opacity: 100% !important;
 }
 
 .project-footer {
